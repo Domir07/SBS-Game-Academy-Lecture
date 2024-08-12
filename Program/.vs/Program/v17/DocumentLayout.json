@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\wepon\\source\\repos\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E080B92-78FC-4BFC-96A6-CA1D5D603903}|Program\\Program.vcxproj|C:\\Users\\wepon\\source\\repos\\Program\\Program\\Souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6E080B92-78FC-4BFC-96A6-CA1D5D603903}|Program\\Program.vcxproj|C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Program\\Souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6E080B92-78FC-4BFC-96A6-CA1D5D603903}|Program\\Program.vcxproj|solutionrelative:Program\\Souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FFA3F84-039B-4AF4-9F05-0BF6B2D61DCB}|Class2th (Variable \u0026 Constant)\\Class2th (Variable \u0026 Constant).vcxproj|C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class2th (Variable \u0026 Constant)\\Souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9FFA3F84-039B-4AF4-9F05-0BF6B2D61DCB}|Class2th (Variable \u0026 Constant)\\Class2th (Variable \u0026 Constant).vcxproj|solutionrelative:Class2th (Variable \u0026 Constant)\\Souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E056F05-525E-4B6D-B7A4-CCFA1A0F5F1E}|Class1th (printf)\\Class1th (printf).vcxproj|C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class1th (printf)\\Souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5E056F05-525E-4B6D-B7A4-CCFA1A0F5F1E}|Class1th (printf)\\Class1th (printf).vcxproj|solutionrelative:Class1th (printf)\\Souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Souce.c",
+              "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class2th (Variable \u0026 Constant)\\Souce.c",
+              "RelativeDocumentMoniker": "Class2th (Variable \u0026 Constant)\\Souce.c",
+              "ToolTip": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class2th (Variable \u0026 Constant)\\Souce.c",
+              "RelativeToolTip": "Class2th (Variable \u0026 Constant)\\Souce.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-12T11:16:18.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Souce.c",
+              "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class1th (printf)\\Souce.c",
+              "RelativeDocumentMoniker": "Class1th (printf)\\Souce.c",
+              "ToolTip": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class1th (printf)\\Souce.c",
+              "RelativeToolTip": "Class1th (printf)\\Souce.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-09T11:11:49.538Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Souce.c",
-              "DocumentMoniker": "C:\\Users\\wepon\\source\\repos\\Program\\Program\\Souce.c",
+              "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Program\\Souce.c",
               "RelativeDocumentMoniker": "Program\\Souce.c",
-              "ToolTip": "C:\\Users\\wepon\\source\\repos\\Program\\Program\\Souce.c",
+              "ToolTip": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Program\\Souce.c",
               "RelativeToolTip": "Program\\Souce.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-08-08T11:43:58.374Z",
               "EditorCaption": ""
