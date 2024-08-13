@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{6E080B92-78FC-4BFC-96A6-CA1D5D603903}|Program\\Program.vcxproj|solutionrelative:Program\\Souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CDB55120-C87E-491A-9185-40821F8E89DE}|Class3th (Bit)\\Class3th (Bit).vcxproj|C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class3th (Bit)\\Souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CDB55120-C87E-491A-9185-40821F8E89DE}|Class3th (Bit)\\Class3th (Bit).vcxproj|solutionrelative:Class3th (Bit)\\Souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FFA3F84-039B-4AF4-9F05-0BF6B2D61DCB}|Class2th (Variable \u0026 Constant)\\Class2th (Variable \u0026 Constant).vcxproj|C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class2th (Variable \u0026 Constant)\\Souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9FFA3F84-039B-4AF4-9F05-0BF6B2D61DCB}|Class2th (Variable \u0026 Constant)\\Class2th (Variable \u0026 Constant).vcxproj|solutionrelative:Class2th (Variable \u0026 Constant)\\Souce.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Souce.c",
+              "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class3th (Bit)\\Souce.c",
+              "RelativeDocumentMoniker": "Class3th (Bit)\\Souce.c",
+              "ToolTip": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class3th (Bit)\\Souce.c",
+              "RelativeToolTip": "Class3th (Bit)\\Souce.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-13T11:05:18.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Souce.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class2th (Variable \u0026 Constant)\\Souce.c",
               "RelativeDocumentMoniker": "Class2th (Variable \u0026 Constant)\\Souce.c",
@@ -38,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Souce.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class1th (printf)\\Souce.c",
               "RelativeDocumentMoniker": "Class1th (printf)\\Souce.c",
@@ -56,7 +73,7 @@
               "RelativeDocumentMoniker": "Program\\Souce.c",
               "ToolTip": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Program\\Souce.c",
               "RelativeToolTip": "Program\\Souce.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-08-08T11:43:58.374Z",
               "EditorCaption": ""
