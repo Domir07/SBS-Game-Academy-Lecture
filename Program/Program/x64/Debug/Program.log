@@ -1,8 +1,2 @@
 ﻿  Source.c
-C:\Users\wepon\OneDrive\Desktop\GitHub\SBS-Game-Academy-Lecture\Program\Program\Source.c(43,8): warning C4133: '=': 'float *'과(와) 'int *' 사이의 형식이 호환되지 않습니다.
-C:\Users\wepon\OneDrive\Desktop\GitHub\SBS-Game-Academy-Lecture\Program\Program\Source.c(49,11): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
-C:\Users\wepon\OneDrive\Desktop\GitHub\SBS-Game-Academy-Lecture\Program\Program\Source.c(51,11): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-  C:\Users\wepon\OneDrive\Desktop\GitHub\SBS-Game-Academy-Lecture\Program\Program\Source.c(51,11):
-  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-  
   Program.vcxproj -> C:\Users\wepon\OneDrive\Desktop\GitHub\SBS-Game-Academy-Lecture\Program\x64\Debug\Program.exe
