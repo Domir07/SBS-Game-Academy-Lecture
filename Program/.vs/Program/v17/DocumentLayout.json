@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{6E080B92-78FC-4BFC-96A6-CA1D5D603903}|Program\\Program.vcxproj|solutionrelative:Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2B581FE9-E6C8-41EB-8942-21AEBA651621}|Class12th (Ascii Code)\\Class12th (Ascii Code).vcxproj|C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class12th (Ascii Code)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2B581FE9-E6C8-41EB-8942-21AEBA651621}|Class12th (Ascii Code)\\Class12th (Ascii Code).vcxproj|solutionrelative:Class12th (Ascii Code)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{492A4AB1-A198-4F20-B479-CC01E0B636B2}|Class11th (Function)\\Class11th (Function).vcxproj|C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class11th (Function)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{492A4AB1-A198-4F20-B479-CC01E0B636B2}|Class11th (Function)\\Class11th (Function).vcxproj|solutionrelative:Class11th (Function)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -82,11 +86,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class12th (Ascii Code)\\Source.c",
+              "RelativeDocumentMoniker": "Class12th (Ascii Code)\\Source.c",
+              "ToolTip": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class12th (Ascii Code)\\Source.c",
+              "RelativeToolTip": "Class12th (Ascii Code)\\Source.c",
+              "ViewState": "AQIAACwAAAAAAAAAAAAYwDIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-26T12:38:36.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class11th (Function)\\Source.c",
               "RelativeDocumentMoniker": "Class11th (Function)\\Source.c",
@@ -94,12 +111,11 @@
               "RelativeToolTip": "Class11th (Function)\\Source.c",
               "ViewState": "AQIAADgAAAAAAAAAAAAkwEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-23T12:40:00.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T12:40:00.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class10th (String)\\Source.c",
               "RelativeDocumentMoniker": "Class10th (String)\\Source.c",
@@ -107,12 +123,11 @@
               "RelativeToolTip": "Class10th (String)\\Source.c",
               "ViewState": "AQIAAFYAAAAAAAAAAAAAwF0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-23T11:03:50.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T11:03:50.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class9th (Array)\\Source.c",
               "RelativeDocumentMoniker": "Class9th (Array)\\Source.c",
@@ -120,12 +135,11 @@
               "RelativeToolTip": "Class9th (Array)\\Source.c",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAF0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-22T11:03:50.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T11:03:50.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class2th (Variable \u0026 Constant)\\Source.c",
               "RelativeDocumentMoniker": "Class2th (Variable \u0026 Constant)\\Source.c",
@@ -133,12 +147,11 @@
               "RelativeToolTip": "Class2th (Variable \u0026 Constant)\\Source.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-20T12:39:54.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T12:39:54.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class1th (printf)\\Source.c",
               "RelativeDocumentMoniker": "Class1th (printf)\\Source.c",
@@ -150,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Sourcs.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class4th (Overflow \u0026 Underflow)\\Sourcs.c",
               "RelativeDocumentMoniker": "Class4th (Overflow \u0026 Underflow)\\Sourcs.c",
@@ -162,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class5th (Conditional Statement)\\Source.c",
               "RelativeDocumentMoniker": "Class5th (Conditional Statement)\\Source.c",
@@ -174,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class6th (Iteration Statement)\\Source.c",
               "RelativeDocumentMoniker": "Class6th (Iteration Statement)\\Source.c",
@@ -186,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class7th (Type Conversion)\\Source.c",
               "RelativeDocumentMoniker": "Class7th (Type Conversion)\\Source.c",
@@ -198,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class8th (Pointer)\\Source.c",
               "RelativeDocumentMoniker": "Class8th (Pointer)\\Source.c",
@@ -216,14 +229,14 @@
               "RelativeDocumentMoniker": "Program\\Source.c",
               "ToolTip": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Program\\Source.c",
               "RelativeToolTip": "Program\\Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-08-20T11:05:11.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Souce.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class6th (Iteration Statement)\\Souce.c",
               "RelativeDocumentMoniker": "Class6th (Iteration Statement)\\Souce.c",
@@ -234,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Souce.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class5th (Conditional Statement)\\Souce.c",
               "RelativeDocumentMoniker": "Class5th (Conditional Statement)\\Souce.c",
@@ -245,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Soucs.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class4th (Overflow \u0026 Underflow)\\Soucs.c",
               "RelativeDocumentMoniker": "Class4th (Overflow \u0026 Underflow)\\Soucs.c",
@@ -257,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Souce.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class3th (Bit)\\Souce.c",
               "RelativeDocumentMoniker": "Class3th (Bit)\\Souce.c",
@@ -269,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Souce.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class2th (Variable \u0026 Constant)\\Souce.c",
               "RelativeDocumentMoniker": "Class2th (Variable \u0026 Constant)\\Souce.c",
@@ -281,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Souce.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Class1th (printf)\\Souce.c",
               "RelativeDocumentMoniker": "Class1th (printf)\\Souce.c",
@@ -292,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Souce.c",
               "DocumentMoniker": "C:\\Users\\wepon\\OneDrive\\Desktop\\GitHub\\SBS-Game-Academy-Lecture\\Program\\Program\\Souce.c",
               "RelativeDocumentMoniker": "Program\\Souce.c",
