@@ -1,86 +1,118 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+#define _CRT_SECURE_NO_WARNINGS
 
-struct GameObject
+int Add(int x, int y)
 {
-	char grade;  // 1 byte
-	double scale; // 8 byte
-	int x;       // 4 byte
+	return x + y;
+}
 
-	// 구조체 크기의 경우 멤버 변수의 순서에 따라 메모리의
-	// 크기가 다르게 설정될 수 있으며, 구조체 크기를 결정하는
-	// 형태는 기본 자료형으로만 구성됩니다.
-};
-
-struct Node
+int Substract(int x, int y)
 {
-	int data;
-	struct Node * next;
-};
+	return x - y;
+}
 
-inline void OncollisionEnter()
+int Multiply()
 {
-	printf("collision\n");
+	return 5 * 5;
+}
+
+int Divide()
+{
+	return 5 / 5;
+}
+
+int Calculator(int(fptr)())
+{
+	return fptr();
 }
 
 int main()
 {
-#pragma region 바이트 패딩
-	// 멤버 변수를 메모리에서 CPU로 읽을 때 한 번에
-	// 읽을 수 있도록, 컴파일러가 레지스터의 블록에
-	// 맞추어 바이트를 패딩해주는 최적화 작업입니다.
+#pragma region 함수 포인터
+	// 함수의 주소값을 저장하고 가리킬 수 있는
+	// 변수입니다.
 
-	// struct GameObject gameObject;
+	// int (*fptr)(int, int);
 	// 
-	// printf("GameObject의 크기 : %d\n", sizeof(gameObject));
+	// fptr = Add;
+	// 
+	// printf("fptr로 호출한 값 : %d\n", fptr(10,20));
+	// 
+	// fptr = Substract;
+	// 
+	// printf("fptr로 호출한 값 : %d\n", fptr(10, 20));
 
-	// 구조체의 크기는 구조체를 구성하는 멤버 중에서 크기가
-	// 가장 큰 자료형의 배수가 되도록 정렬합니다.
+	// 함수 포인터는 함수의 반환형과 매개 변수의 타입이
+	// 일치해야 하며, 함수 포인터를 사용하여 동적으로
+	// 메모리를 할당할 수 있습니다.
+
+	// printf("Calculator의 값 : %d\n", Calculator(Multiply));
+
+	// 함수의 호출은 컴파인 시점에 결정되지만, 함수 포인터로
+	// 함수를 호출하게 되면 프로그램이 실행되는 시점에 함수의
+	// 이름을 운영체제에 전달하여 함수를 호출할 수 있습니다.
 
 #pragma endregion
 
-#pragma region 인라인 함수
-	// 함수를 호출하는 대신 함수가 호출되는 위치마다
-	// 함수의 코드를 복사하여 전달하는 방식의 함수입니다.
+#pragma region rend 함수
+	// 0 ~ 32767 사이의 난수 값을 반환하는 함수입니다.
+	
+	// UTC 기준으로 1970년 1월 1일 0시 0분 0초 경과된
+	// 시간을 초(sec)로 변환하는 함수입니다.
 
-	// OncollisionEnter();
-
-	// 인라인 함수는 함수를 호출하는 과정이 없으므로 처리
-	// 속도가 빠르지만, 인라인 함수를 많이 사용하게 되면
-	// 함수의 코드가 복사되기 때문에 실행 파일의 크기가 커지게 됩니다.
+	// srand(time(NULL));
+	// 
+	// int random = rand() % 10 + 1;
+	// 
+	// printf("random 변수의 값 : %d\n", random);
 
 #pragma endregion
 
-#pragma region 구조체 포인터
+#pragma region UP - DOWN 게임
 
-	// struct Node* node = malloc(sizeof(struct Node));
-	// 
-	// node->data = 100;
-	// 
-	// printf("node1의 data 값 : %d\n, node->data");
-	// 
-	// free(node);
+	int Life;
+	int num1;
 
-#pragma endregion
+	srand(time(NULL));
 
-#pragma region 자기 참조 구조체
-	struct Node node1 = { 10, NULL };
-	struct Node node2 = { 20, NULL };
-	struct Node node3 = { 30, NULL };
-
-	node1.next = &node2;
-	node2.next = &node3;
-	node3.next = NULL;
-
-	for (int i = 0; i <= NULL; i++)
+	int random = rand() % 50;
+	
+	for (int Life = 0; Life <= 5; Life++)
 	{
-		printf("node1.data 값 : %d\n", node1->data);
-		printf("node2의 data 값 : %d\n", node2->data);
-		printf("node3의 data 값 : %d\n", node3->data);
+		printf("정수를 입력하세요: ");
+		scanf("%d", &num1);
+
+		printf("당신이 입력한 값 : %d\n", num1);
+
+		if (num1 < random)
+		{
+			printf("Life 1 감소\n");
+			printf("UP\n");
+		}
+		else if (num1 > random)
+		{
+			printf("Life 1 감소\n");
+			printf("DOWN\n");
+		}
+		else
+		{
+			break;
+		}
 	}
+
+	if (Life == 0)
+	{
+		printf("Defeat\n");
+	}
+	else
+	{
+		printf("Victory\n");
+	}
+	
+
 #pragma endregion
-
-
 
 
 	return 0;
