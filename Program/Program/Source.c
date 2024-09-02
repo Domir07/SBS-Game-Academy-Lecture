@@ -1,118 +1,111 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-#define _CRT_SECURE_NO_WARNINGS
 
-int Add(int x, int y)
-{
-	return x + y;
-}
+typedef unsigned int UINT;
 
-int Substract(int x, int y)
+typedef struct Vector2
 {
-	return x - y;
-}
+	int x;
+	int y;
+}Vector2;
 
-int Multiply()
+enum State
 {
-	return 5 * 5;
-}
+	WALK,
+	ATTACK,
+	DIE,
+};
 
-int Divide()
+enum Key
 {
-	return 5 / 5;
-}
+	Q = 1,
+	W,
+	E,
+	R,
 
-int Calculator(int(fptr)())
-{
-	return fptr();
-}
+};
 
 int main()
 {
-#pragma region 함수 포인터
-	// 함수의 주소값을 저장하고 가리킬 수 있는
-	// 변수입니다.
+#pragma region typedef
+	// 이미 정해져 있는 예약어를 사용자가 원하는
+	// 이름으로 새롭게 생성하는 것입니다.
 
-	// int (*fptr)(int, int);
+	// unsigned int x = 10;
+	// UINT y = 20;
 	// 
-	// fptr = Add;
+	// Vector2 vector2;
 	// 
-	// printf("fptr로 호출한 값 : %d\n", fptr(10,20));
+	// vector2.x = 10;
+	// vector2.y = 20;
 	// 
-	// fptr = Substract;
-	// 
-	// printf("fptr로 호출한 값 : %d\n", fptr(10, 20));
-
-	// 함수 포인터는 함수의 반환형과 매개 변수의 타입이
-	// 일치해야 하며, 함수 포인터를 사용하여 동적으로
-	// 메모리를 할당할 수 있습니다.
-
-	// printf("Calculator의 값 : %d\n", Calculator(Multiply));
-
-	// 함수의 호출은 컴파인 시점에 결정되지만, 함수 포인터로
-	// 함수를 호출하게 되면 프로그램이 실행되는 시점에 함수의
-	// 이름을 운영체제에 전달하여 함수를 호출할 수 있습니다.
+	// printf("x 변수의 값 : %u\n", x);
+	// printf("y 변수의 값 : %u\n", y);
 
 #pragma endregion
 
-#pragma region rend 함수
-	// 0 ~ 32767 사이의 난수 값을 반환하는 함수입니다.
-	
-	// UTC 기준으로 1970년 1월 1일 0시 0분 0초 경과된
-	// 시간을 초(sec)로 변환하는 함수입니다.
+#pragma region 허상 포인터
+	// 이미 해제된 메모리 영역을 가리키는 포인터입니다.
 
-	// srand(time(NULL));
+	// int * ptr = (int *)malloc(sizeof(int));
 	// 
-	// int random = rand() % 10 + 1;
+	// *ptr = 10;
 	// 
-	// printf("random 변수의 값 : %d\n", random);
+	// printf("ptr이 가리키는 값 : %d\n", *ptr);
+	// 
+	// free(ptr);
+	// 
+	// printf("ptr이 가리키는 값 : %d\n", *ptr);
 
 #pragma endregion
 
-#pragma region UP - DOWN 게임
+#pragma region 열거형
+	// 이름이 지정된 상수 집합을 나타내는 값 형식입니다.
 
-	int Life;
-	int num1;
+	// enum State state = WALK;
+	// 
+	// switch (state)
+	// {
+	// case WALK : printf("Walk\n");
+	// 	break;
+	// case ATTACK : printf("Attack\n");
+	// 	break;
+	// case DIE : printf("Die\n");
+	// default:
+	// 	break;
+	// }
 
-	srand(time(NULL));
+#pragma endregion
 
-	int random = rand() % 50;
-	
-	for (int Life = 0; Life <= 5; Life++)
+#pragma region Skill System
+	int mana = 100;
+	enum Key key = Q;
+
+	while (mana > 0)
 	{
-		printf("정수를 입력하세요: ");
-		scanf("%d", &num1);
+		scanf_s("%d", &key);
 
-		printf("당신이 입력한 값 : %d\n", num1);
-
-		if (num1 < random)
+		switch (key)
 		{
-			printf("Life 1 감소\n");
-			printf("UP\n");
-		}
-		else if (num1 > random)
-		{
-			printf("Life 1 감소\n");
-			printf("DOWN\n");
-		}
-		else
-		{
+		case Q: mana -= 10;
+			printf("하세기\n");
+			break;
+		case W: mana -= 10;
+			printf("바람장막\n");
+			break;
+		case E: mana -= 20;
+			printf("질풍검\n");
+			break;
+		case R: mana -= 30;
+			printf("소리에게돈\n");
+			break;
+		default: printf("예외처리\n");
 			break;
 		}
 	}
 
-	if (Life == 0)
-	{
-		printf("Defeat\n");
-	}
-	else
-	{
-		printf("Victory\n");
-	}
-	
-
 #pragma endregion
+
 
 
 	return 0;
